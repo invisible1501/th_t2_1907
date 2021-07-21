@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table.table_wrapper {
+            border-spacing: 15px;
+            border-collapse: separate;
+            border-spacing: 15px;
+            width: 90%;
+            margin: 0 auto;
+            box-sizing: border-box;
+        }
+        table.table_wrapper td {
+            height: 85px;
+            width: 22%;
+        }
+        #r_1 td {
+            border: thin solid gray;
+            padding-left: 15px;
+        }
+        table.table_container {
+            margin: 0 auto;
+            border-collapse: collapse;
+            border: thin solid blue;
+        }
+        table.table_inside {
+            width: 96%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        table.table_inside td, table.table_inside th {
+            border: thin solid gray;
+            height: 45px;
+            background-color: #ddd;
+        }
+        table.table_inside td {
+            padding-left: 5px;
+            background-color: white;
+        }
+        span {
+            font-size: 28px;
+        }
+        #icon_bantay {
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <table class="table_wrapper">
+            <tr id="r_1">
+                <td><span>6,570,000</span><br>Tổng doanh thu</td>
+                <td><span>4</span><br>Tổng đơn hàng</td>
+                <td><span>8</span><br>Tổng sản phẩm đã mua</td>
+                <td><span>2</span><br>Tổng khách hàng</td>
+            </tr>
+            <tr><td colspan="4"><table class="table_container">
+                <tr>
+                    <th style="background-color: rgb(67, 67, 241); height: 32px; color: white; text-align: left;">Đơn hàng mới nhất</th>
+                </tr>
+                <tr>
+                    <td><table class="table_inside">
+                        <tr>
+                            <th>Mã đơn hàng</th>
+                            <th>Tên khách hàng</th>
+                            <th>Ngày mua</th>
+                            <th>Tổng tiền</th>
+                            <th>Tùy chọn</th>
+                        </tr>
+                        <tr>
+                            <td>31</td>
+                            <td>Nguyễn Thanh Phong</td>
+                            <td>15/08/2017</td>
+                            <td>1,250,000</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>29</td>
+                            <td>Nguyễn Văn Tuấn</td>
+                            <td>12/05/2017</td>
+                            <td>1,250,000</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>28</td>
+                            <td>Nguyễn Văn Tuấn</td>
+                            <td>16/04/2017</td>
+                            <td>3,605,000</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>26</td>
+                            <td>Nguyễn Thanh Phong</td>
+                            <td>16/04/2017</td>
+                            <td>2,035,000</td>
+                            <td></td>
+                        </tr>
+                    </table></td>
+                </tr>
+                <tr>
+                    <td style="color: red; height: fit-content; padding-left: 2%;">
+                        <p><div id="icon_bantay">
+                            <img src="/table/th_t2_1907/image/icons8-hand-right-32.png" alt="hand" width="20px">
+                        </div>
+                        <span style="padding-left: 5px; font-size: 15px;">Xem thêm</span></p>
+                    </td>
+                </tr>
+            </table></td></tr>
+    </table></div>
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            width: 50%;
+            height: 380px;
+            border-collapse: collapse;
+            text-align: center;
+            vertical-align: middle;
+        }
+        tr:nth-child(odd) {
+            background-color: #f9f9f9;
+        }
+        tr:nth-child(even) {
+            background-color: #dcdcdc;
+        }
+        tr:nth-child(even) td:nth-child(even) {
+            background-color: #f0efef;
+        }
+        table tr:first-child th:first-child {
+            border-top-left-radius: 15px;
+        }
+        table tr:first-child th:last-child {
+            border-top-right-radius: 15px;
+        }
+        table tr:last-child th:first-child {
+            border-bottom-left-radius: 15px;
+        }
+        table tr:last-child th:last-child {
+            border-bottom-right-radius: 15px;
+        }
+        span#c1 {
+            font-size: 25px;
+        }
+        span#c2 {
+            font-size: 12px;
+        }
+        table th {
+            color: white;
+            font-size: 18px;
+        }
+        table td {
+            color: #979696;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <table>
+        <tr>
+            <th rowspan="2" style="background-color: orange;">PRICING TABLE</th>
+            <th style="background-color: rgb(105, 197, 105);"><span id="c1">$4.99</span><br><span id="c2">/ month</span></th>
+            <th style="background-color: rgb(71, 71, 197);"><span id="c1">$9.99</span><br><span id="c2">/ month</span></th>
+            <th style="background-color: rgb(179, 30, 159);"><span id="c1">$14.99</span><br><span id="c2">/ month</span></th>
+        </tr>
+        <tr>
+            <th style="background-color: rgb(45, 173, 45);">BRONZE</th>
+            <th style="background-color: rgb(40, 40, 206);">SILVER</th>
+            <th style="background-color: rgb(146, 7, 128);">GOLD</th>
+        </tr>
+        <tr>
+            <td>SERVICES</td>
+            <td>2 month</td>
+            <td>6 month</td>
+            <td>12 month</td>
+        </tr>
+        <tr>
+            <td>CAPACITY</td>
+            <td>5 gb</td>
+            <td>10 gb</td>
+            <td>20 gb</td>
+        </tr>
+        <tr>
+            <td>LOREM IPSUM</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>LOREM IPSUM</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>LOREM IPSUM</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>LOREM IPSUM</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th style="background-color: orange;"></th>
+            <th style="background-color: rgb(105, 197, 105);">BUY NOW</th>
+            <th style="background-color: rgb(71, 71, 197); font-weight: normal;">BUY NOW</th>
+            <th style="background-color: rgb(179, 30, 159); font-weight: normal;">BUY NOW</th>
+        </tr>
+    </table></div>
+</body>
+</html>
